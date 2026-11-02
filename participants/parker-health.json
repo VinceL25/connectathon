@@ -12,10 +12,10 @@
       "id": "apex-nexus-checkin",
       "role": "verifier",
       "name": "Apex Nexus check-in",
-      "description": "EHR patient check-in. Requests records or the PHQ-2 from the patient's health app (the phone's wallet or any registered web wallet), verifies SMART Health Cards, and sends results to the chart's review queue. The desk can show a code so the patient checks in on their own phone.",
+      "description": "Apex Nexus EHR as a Verifier. Patient check-in asks the patient's health app (the phone's wallet or any registered web wallet) for records or the PHQ-2, verifies SMART Health Cards, renders the result in Nexus, and sends it to the chart's review queue. Nexus also scans SMART Health Card and SMART Health Link QR codes and renders them in Nexus.",
       "status": "up",
       "url": "https://demo.parkerapex.com/smart-check-in?connectathon",
-      "notes": "Accept the one-time confidentiality notice. Choose Pre-visit records (scenarios 1 and 3; decline Immunizations for 3) or Depression screen (PHQ-2) (scenario 2). 'On their phone' shows a code to scan with the phone that holds the wallet (native path); 'On this device' lists the registry's web wallets. The Connectathon testing panel on the page has the scenario notes and the result-report link. Synthetic data only."
+      "notes": "Accept the one-time confidentiality notice. Check-in: choose Pre-visit records (scenarios 1 and 3; decline Immunizations for 3) or Depression screen (PHQ-2) (scenario 2). 'On their phone' shows a code the patient scans with the phone that holds their wallet (native path); 'On this device' lists the device's own wallet and the registry's web wallets. QR reader: Scan SMART / FHIR (Nexus sidebar, Quick Actions) reads SMART Health Card (shc:/) and SMART Health Link (shlink:/) QR codes from the camera, an image, or pasted text and renders them in Nexus. Synthetic data only."
     }
   ]
 }
