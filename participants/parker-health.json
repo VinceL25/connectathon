@@ -1,0 +1,21 @@
+{
+  "organization": "Parker Health",
+  "homepage": "https://parkerapex.com",
+  "contacts": [
+    {
+      "name": "Vince Lopez",
+      "github": "VinceL25"
+    }
+  ],
+  "components": [
+    {
+      "id": "apex-nexus-checkin",
+      "role": "verifier",
+      "name": "Apex Nexus check-in",
+      "description": "EHR patient check-in. Requests records or the PHQ-2 from the patient's health app (the phone's wallet or any registered web wallet), verifies SMART Health Cards, and sends results to the chart's review queue. The desk can show a code so the patient checks in on their own phone.",
+      "status": "up",
+      "url": "https://demo.parkerapex.com/smart-check-in?connectathon",
+      "notes": "Accept the one-time confidentiality notice. Choose Pre-visit records (scenarios 1 and 3; decline Immunizations for 3) or Depression screen (PHQ-2) (scenario 2). 'On their phone' shows a code to scan with the phone that holds the wallet (native path); 'On this device' lists the registry's web wallets. The Connectathon testing panel on the page has the scenario notes and the result-report link. Synthetic data only."
+    }
+  ]
+}
